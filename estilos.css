@@ -1,0 +1,104 @@
+/* estilos.css */
+
+body {
+    font-family: Arial, sans-serif;
+    /* Fondo degradado suave */
+    background: linear-gradient(135deg, #1a1a1a, #3d2c00);
+    margin: 0;
+    padding: 20px;
+    color: rgb(108, 102, 11); /* Para que el texto claro se vea bien sobre fondo oscuro */
+  }
+  
+  
+  nav {
+    background-color: black;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;              /* Hace la barra horizontal */
+    justify-content: center;    /* Centra los botones */
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin: 0 20px;             /* Espacio entre botones */
+  }
+  
+  nav ul li a {
+    color: gold;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 8px 15px;          /* Tamaño “botón” */
+    display: inline-block;
+    border-radius: 4px;         /* Bordes redondeados */
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    background-color: #ffd700cc; /* Fondo dorado claro al pasar el mouse */
+    color: black;                /* Texto negro cuando se pasa el mouse */
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #ccc;
+  }
+  hr {
+  border: 0;
+  height: 2px;
+  background: gold;
+  margin: 30px 0;
+  border-radius: 3px;
+}
+
+  h1 {
+    color: black;
+  }
+  
+  .imagen-inicio {
+    width: 60%;         /* Puedes poner 100%, 70%, 300px, etc. */
+    max-width: 400px;   /* Limita el tamaño máximo */
+    height: auto;       /* Mantiene proporción */
+    display: block;     /* Para que el margin funcione */
+    margin: 20px auto;  /* Centra la imagen */
+    border-radius: 10px; /* Opcional: esquinas redondeadas */
+  }
+  
+  .imagen-informacion {
+    display: block;
+    max-width: 300px;
+    height: auto;
+    margin: 25px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  }
+  
+
+  .ubicacion-detalle {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 12px;
+    margin-top: 20px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+  
+  .link-ubicacion {
+    display: inline-block;
+    margin-top: 5px;
+    color: gold;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
